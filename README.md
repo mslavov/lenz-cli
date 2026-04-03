@@ -4,13 +4,21 @@ CLI + Claude Code skill for the [Lenz](https://lenz.io) verified claims fact-che
 
 Search a library of verified claims, submit new claims for verification, explore detailed reports with sources, expert assessments, and debates — from the terminal or as an AI agent skill.
 
-## Install as Agent Skill
+## Install the Agent Skill
+
+Works with Claude Code, Cursor, Codex, and [40+ other agents](https://agentskills.io):
 
 ```bash
-claude install mslavov/lenz-cli
+npx skills add mslavov/lenz-cli
 ```
 
-## Install as CLI
+Or via the CLI itself:
+
+```bash
+npx lenz-cli --skill export lenz | npx skillflag install
+```
+
+## Install the CLI
 
 ```bash
 npm install -g lenz-cli

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "lenz": {
+      "source": "mslavov/lenz-cli",
+      "sourceType": "github",
+      "computedHash": ""
+    }
+  }
+}
